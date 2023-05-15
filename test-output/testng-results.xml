@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-14T11:59:04 IST" name="Suite1" finished-at="2023-05-14T11:59:49 IST" duration-ms="45514">
+    <groups>
+    </groups>
+    <test started-at="2023-05-14T11:59:04 IST" name="CHROME" finished-at="2023-05-14T11:59:22 IST" duration-ms="18171">
+      <class name="pom.tests.AddToCartTest">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,org.testng.ITestContext)[pri:0, instance:pom.tests.AddToCartTest@57175e74]" started-at="2023-05-14T11:59:04 IST" name="beforeSuite" finished-at="2023-05-14T11:59:09 IST" duration-ms="5020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4e91d63f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="addToCartProduct()[pri:0, instance:pom.tests.AddToCartTest@57175e74]" started-at="2023-05-14T11:59:09 IST" name="addToCartProduct" finished-at="2023-05-14T11:59:21 IST" duration-ms="12802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartProduct -->
+        <test-method is-config="true" signature="afterSuite(java.lang.String,org.testng.ITestResult)[pri:0, instance:pom.tests.AddToCartTest@57175e74]" started-at="2023-05-14T11:59:21 IST" name="afterSuite" finished-at="2023-05-14T11:59:22 IST" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=addToCartProduct status=SUCCESS method=AddToCartTest.addToCartProduct()[pri:0, instance:pom.tests.AddToCartTest@57175e74] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- pom.tests.AddToCartTest -->
+    </test> <!-- CHROME -->
+    <test started-at="2023-05-14T11:59:04 IST" name="FIREFOX" finished-at="2023-05-14T11:59:49 IST" duration-ms="45514">
+      <class name="pom.tests.AddToCartWithoutLoginTestCase">
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,org.testng.ITestContext)[pri:0, instance:pom.tests.AddToCartWithoutLoginTestCase@6f3b5d16]" started-at="2023-05-14T11:59:04 IST" name="beforeSuite" finished-at="2023-05-14T11:59:11 IST" duration-ms="7558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@d4342c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="withoutLogin()[pri:0, instance:pom.tests.AddToCartWithoutLoginTestCase@6f3b5d16]" started-at="2023-05-14T11:59:11 IST" name="withoutLogin" finished-at="2023-05-14T11:59:28 IST" duration-ms="16677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withoutLogin -->
+        <test-method is-config="true" signature="afterSuite(java.lang.String,org.testng.ITestResult)[pri:0, instance:pom.tests.AddToCartWithoutLoginTestCase@6f3b5d16]" started-at="2023-05-14T11:59:28 IST" name="afterSuite" finished-at="2023-05-14T11:59:29 IST" duration-ms="715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=withoutLogin status=SUCCESS method=AddToCartWithoutLoginTestCase.withoutLogin()[pri:0, instance:pom.tests.AddToCartWithoutLoginTestCase@6f3b5d16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method is-config="true" signature="beforeSuite(java.lang.String,org.testng.ITestContext)[pri:0, instance:pom.tests.AddToCartWithoutLoginTestCase@6f3b5d16]" started-at="2023-05-14T11:59:29 IST" name="beforeSuite" finished-at="2023-05-14T11:59:33 IST" duration-ms="4094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@d4342c2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method signature="withLogin()[pri:2, instance:pom.tests.AddToCartWithoutLoginTestCase@6f3b5d16]" started-at="2023-05-14T11:59:33 IST" name="withLogin" finished-at="2023-05-14T11:59:48 IST" duration-ms="15718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- withLogin -->
+        <test-method is-config="true" signature="afterSuite(java.lang.String,org.testng.ITestResult)[pri:0, instance:pom.tests.AddToCartWithoutLoginTestCase@6f3b5d16]" started-at="2023-05-14T11:59:48 IST" name="afterSuite" finished-at="2023-05-14T11:59:49 IST" duration-ms="723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=withLogin status=SUCCESS method=AddToCartWithoutLoginTestCase.withLogin()[pri:2, instance:pom.tests.AddToCartWithoutLoginTestCase@6f3b5d16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- pom.tests.AddToCartWithoutLoginTestCase -->
+    </test> <!-- FIREFOX -->
+  </suite> <!-- Suite1 -->
+</testng-results>

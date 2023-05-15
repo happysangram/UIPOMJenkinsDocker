@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" parallel= "tests" thread-count="10">
+    <test name="CHROME">
+        <!--        <packages>-->
+        <!--            <package name="com.tests" />-->
+        <!--        </packages>-->
+
+        <parameter name="browser" value="CHROME"></parameter>
+        <classes>
+            <!--            <class name="com.tests.AddToCartWithoutLoginTestCase"></class>-->
+<!--            <class name="pom.tests.NavigationTest"></class>-->
+<!--            <class name="pom.tests.SearchTest"></class>-->
+           <class name="pom.tests.AddToCartTest"></class>
+<!--<class name="pom.tests.Dummy"></class>-->
+
+        </classes>
+    </test>
+
+     <test name="FIREFOX">
+
+      <parameter name="browser" value="FIREFOX"></parameter>
+         <classes>
+           <class name="pom.tests.AddToCartWithoutLoginTestCase" />
+       </classes>
+       </test>
+</suite>
